@@ -99,23 +99,32 @@ html {
   background-color: #fff;
   height: 100%;
   width: 100%;
+  
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  text-align: center;
 }
-
+span {
+    font-family: 'Architects Daughter', cursive;
+}
 header,
 footer {
   background-color: #222;
   height: 80px;
   width: 100%;
 }
-
+header {
+    font-size: 3.5em;
+}
+footer {
+    font-size: .5em;
+}
 main {
   background-color: #ccc;
   height: 250px;
@@ -125,29 +134,40 @@ main {
 header,
 footer,
 main {
-    display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 }
 
 .flex-container {
-    display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-justify-content:space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:space-between;
+
 }
 
 .flex-items {
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  line-height: 1.2em;
+  font-size: .7em;
+  background-color: #c3859f;
   width: 30%;
   height: 200px;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 80px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  text-align: center;
+}
+#div-3 {
+    border-radius: 80px 20px;
+}
+#div-2 {
+    border-radius: 60px;
 }
 
 /* ==========================================================================
